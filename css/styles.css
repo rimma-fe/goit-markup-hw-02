@@ -1,4 +1,12 @@
 :root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent: #2196f3;
+  --second-text-accent: #ffffff;
+  --background-color: #ffffff;
+  --sec-background-color: #2f303a;
+  --third-background-color: #f5f4fa;
+  --logo-color: #000000;
 }
 body {
   font-family: 'Raleway', sans-serif;
@@ -15,21 +23,35 @@ body {
 /*background-color 2F303A */
 /*background-colorFFFFFF*/
 .logo-accent {
-  color: #2196f3;
+  color: var(--accent);
 }
 
 .logo {
-  color: #000000;
+  color: var(--logo-color);
 }
 ul {
   list-style: none;
 }
 /* Site nav*/
 .site-nav .link {
-  color: #212121;
+  color: var(--title-text-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent);
+}
+
+/*герой*/
+.hero {
+  background-color: var(--sec-background-color);
+  color: var(--second-text-accent);
+  width: 1600px;
+}
+.section-title {
+  color: var(--title-text-color);
+}
+/*features-list*/
+.features-list .title {
+  color: var(--title-text-color);
 }
