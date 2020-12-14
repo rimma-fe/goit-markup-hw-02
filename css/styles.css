@@ -47,6 +47,7 @@ ul {
   background-color: var(--sec-background-color);
   color: var(--second-text-accent);
   width: 1600px;
+  height: 600px;
 }
 .section-title {
   color: var(--title-text-color);
@@ -54,4 +55,11 @@ ul {
 /*features-list*/
 .features-list .title {
   color: var(--title-text-color);
+}
+.button {
+  color: var(--second-text-accent);
+  background-color: var(--accent);
+}
+.primary-button:hover {
+  background-color: var(--accent);
 }
