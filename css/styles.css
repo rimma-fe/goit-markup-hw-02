@@ -9,10 +9,13 @@
   --logo-color: #000000;
 }
 body {
-  font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
   background-color: #ffffff;
   color: #757575;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: 400;
 }
 /* основной цвет текста #757575;*/
 /*вторичный цвет текста background: #212121;*/
@@ -28,6 +31,11 @@ body {
 
 .logo {
   color: var(--logo-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
 }
 ul {
   list-style: none;
@@ -35,6 +43,11 @@ ul {
 /* Site nav*/
 .site-nav .link {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -49,17 +62,99 @@ ul {
   width: 1600px;
   height: 600px;
 }
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  position: absolute;
+width: 696px;
+height: 120px;
+left: 452px;
+top: 280px;
+}
 .section-title {
-  color: var(--title-text-color);
+color: var(--title-text-color);
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+text-decoration: none;
 }
 /*features-list*/
 .features-list .title {
   color: var(--title-text-color);
 }
+
+.features-list .text {
+  font-size: 14px;
+line-height: 1.17;
+}
 .button {
   color: var(--second-text-accent);
   background-color: var(--accent);
+  position: absolute;
+width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
 }
 .primary-button:hover {
   background-color: var(--accent);
+}
+
+.primary-button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.features-list.title {\
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.adress {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.name {
+color: var(--title-text-color);  
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+}
+
+.profession {
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+}
+
+.contacts .link {
+  text-decoration: none;
+}
+
+.project-name {
+  color:#212121;
+  font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+text-decoration: none;
+}
+
+,project-text {
+  font-size: 16px;
+line-height: 1,9;
+text-decoration: none;
 }
