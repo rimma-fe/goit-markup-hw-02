@@ -11,8 +11,8 @@
 body {
   font-family: 'Roboto', sans-serif;
 
-  background-color: #ffffff;
-  color: #757575;
+  background-color: var(--background-color);
+  color: var(--primary-text-color);
 
   font-size: 14px;
   line-height: 1.71;
@@ -145,6 +145,7 @@ ul {
 }
 
 .profession {
+  color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -154,6 +155,7 @@ ul {
 .address {
   font-size: 14px;
   line-height: 1.71;
+  font-style: normal;
 }
 .contacts .link {
   text-decoration: none;
