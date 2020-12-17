@@ -101,11 +101,11 @@ height: 50px;
 left: 700px;
 top: 430px;
 }
-.primary-button:hover {
+.filter:hover {
   background-color: var(--accent);
 }
 
-.primary-button {
+.filter {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -113,6 +113,10 @@ top: 430px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  }
+
+.project-link {
+  text-decoration: none;
 }
 
 .features-list.title {\
@@ -121,7 +125,7 @@ top: 430px;
   line-height: 1.14;
 }
 
-.adress {
+.address {
   font-size: 14px;
   line-height: 1.71;
 }
@@ -144,6 +148,10 @@ text-align: center;
   text-decoration: none;
 }
 
+.contacts {
+  text-decoration: none;
+}
+
 .project-name {
   color:#212121;
   font-weight: 700;
@@ -153,8 +161,8 @@ letter-spacing: 0.06em;
 text-decoration: none;
 }
 
-,project-text {
-  font-size: 16px;
+.project-text {
+ font-size: 16px;
 line-height: 1,9;
 text-decoration: none;
 }
