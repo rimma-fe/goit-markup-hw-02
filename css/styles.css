@@ -187,3 +187,7 @@ ul {
 .project-link {
   text-decoration: none;
 }
+
+.footer {
+  background-color: var(--sec-background-color);
+}
