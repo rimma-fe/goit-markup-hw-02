@@ -157,16 +157,20 @@ ul {
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
+  color: var(--second-text-accent);
 }
 .contacts .link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 
-.contacts {
-  text-decoration: none;
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 14px;
-  line-height: 1.71;
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent);
 }
 
 /* our projects */
@@ -188,6 +192,13 @@ ul {
   text-decoration: none;
 }
 
-.footer {
+footer {
   background-color: var(--sec-background-color);
+}
+.email,
+.phone {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
 }
